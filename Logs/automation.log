@@ -1,0 +1,13 @@
+2023-09-18 21:59:10 [TestNG-suites-1] INFO  BaseTest:35 - ============ TEST STARTED: loginTestWithValidCredentials============
+2023-09-18 21:59:10 [TestNG-suites-1] INFO  WebDriverManager:1212 - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-18 21:59:10 [TestNG-suites-1] INFO  WebDriverManager:1265 - Exporting webdriver.chrome.driver as /Users/kubilaydogan/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  LoginPage:29 - User in on landing page
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  LoginPage:67 - Title verified: Swag Labs
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  LoginPage:37 - Login attempt by standard_user
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  LoginPage:52 - Successful login
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  BaseTest:35 - ============ TEST STARTED: loginTestWithInvalidCredentials============
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  WebDriverManager:1212 - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-18 21:59:13 [TestNG-suites-1] INFO  WebDriverManager:1265 - Exporting webdriver.chrome.driver as /Users/kubilaydogan/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+2023-09-18 21:59:15 [TestNG-suites-1] INFO  LoginPage:29 - User in on landing page
+2023-09-18 21:59:15 [TestNG-suites-1] INFO  LoginPage:37 - Login attempt by locked_out_user
+2023-09-18 21:59:15 [TestNG-suites-1] INFO  LoginPage:61 - Page displays failure message as expected!
