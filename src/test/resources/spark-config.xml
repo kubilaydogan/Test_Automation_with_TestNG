@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <!-- report theme -->
+        <!-- STANDARD, DARK -->
+        <theme>STANDARD</theme>
+
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+
+        <!-- offline report -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- offline report -->
+        <enableOfflineMode>false</enableOfflineMode>
+
+        <!-- title of the document -->
+        <documentTitle>My TestNG Framework</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>Test Automation</reportName>
+        <reportHeadline>A small headline</reportHeadline>
+
+        <!-- timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+        $(document).ready(function() {
+
+        });
+      ]]>
+        </scripts>
+
+        custom styles
+        <styles>
+            <![CDATA[
+
+              ]]>
+        </styles>
+    </configuration>
+</extentreports>

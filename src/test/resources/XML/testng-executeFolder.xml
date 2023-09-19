@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" >
+    <test name="Demo">
+        <packages>
+            <package name="Test"/>
+        </packages>
+    </test>
+</suite>
+
+
+<!--Runs all the tests under specified folder in line 6-->

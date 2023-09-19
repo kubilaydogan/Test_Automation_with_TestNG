@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rerun test using custom annotation" >
+    <listeners>
+        <listener class-name="Framework.Core.Listeners.TestRetryListener2"/>
+    </listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="Framework.Core.CustomAnnotations.SampleTest"/>
+        </classes>
+    </test>
+</suite>

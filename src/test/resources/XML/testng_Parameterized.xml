@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="none">
+<listeners>
+    <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerAdapter"/>
+    <listener class-name="Framework.Core.Listeners.TestListener"/>
+</listeners>
+<test name="MyTest">
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <classes>
+        <class name="Test.LoginTests"/>
+        <class name="Test.usingParameters.ParameterTest"/>
+    </classes>
+</test>
+</suite>
