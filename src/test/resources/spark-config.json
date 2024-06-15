@@ -1,11 +1,11 @@
 {
   "theme": "STANDARD",
-  "encoding": "utf-8",
-  "protocol": "HTTPS",
+  "encoding": "UTF-8",
+  "protocol": "https",
   "timelineEnabled": false,
   "offlineMode": true,
   "documentTitle": "ExtentReports",
-  "reportName": "ExtentReports",
+  "reportName": "Test Automation Report",
   "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
   "js": "",
   "css": ""
